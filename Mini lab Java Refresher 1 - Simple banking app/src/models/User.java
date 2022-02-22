@@ -49,7 +49,7 @@ public class User {
 	}
 	
 	public String toString() {
-		return "Username: " + this.username + "\nPassword: " + this.password + "\nName: " + this.firstName + " " + this.lastName + "\nMobile Number: " + this.mobileNumber;
+		return this.username + " | " + this.password + " | " + this.firstName + " | " + this.lastName + " | " + this.mobileNumber;
 	}
 	
 }

@@ -32,4 +32,8 @@ public class Transaction {
 	public void setTransactionDate(Date transactionDate) {
 		this.transactionDate = transactionDate;
 	}
+	
+	public String toString() {
+		return this.accountNumber + " | " + this.transactionAmount + " | " + this.transactionDate;
+	}
 }
